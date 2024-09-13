@@ -24,7 +24,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    background: linear-gradient(135deg, #283048, #859398);
+    background-color: rgb(97 104 107 / 20%);
     z-index: 1000; /* Ensure logo stays on top */
 }
 
