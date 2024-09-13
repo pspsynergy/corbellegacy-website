@@ -24,7 +24,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #fff; /* Optional: Background color for logo visibility */
+    background: linear-gradient(135deg, #283048, #859398);
     z-index: 1000; /* Ensure logo stays on top */
 }
 
@@ -32,7 +32,6 @@ header {
     max-width: 150px; /* Adjust size as needed */
     height: auto;
     border-radius: 50%; /* Makes the logo circular */
-    background-color: #1E1E1E;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); /* Adds a shiny effect */
     transition: all 0.3s ease; /* Smooth transition for hover effect */
 }
