@@ -9,27 +9,43 @@ body {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(135deg, #283048, #859398);
     height: 100vh;
+    margin: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
-/* Logo styling */
-.logo-container {
-    margin-bottom: 20px;
+/* Header styling */
+header {
+    width: 100%;
     text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff; /* Optional: Background color for logo visibility */
+    z-index: 1000; /* Ensure logo stays on top */
 }
 
 .logo {
-    width: 200px; /* Adjust size according to your logo */
+    max-width: 150px; /* Adjust size as needed */
     height: auto;
+    border-radius: 50%; /* Makes the logo circular */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); /* Adds a shiny effect */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Add a hover effect for a shiny effect */
+.logo:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 12px 32px rgba(0, 0, 0, 0.25); /* Intensifies the shiny effect on hover */
 }
 
 /* Coming soon section */
 .coming-soon-container {
     text-align: center;
     color: white;
+    margin-top: 80px; /* Adjust based on header height */
 }
 
 h1 {
