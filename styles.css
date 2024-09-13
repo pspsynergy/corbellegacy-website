@@ -1,3 +1,4 @@
+/* General styles */
 * {
     margin: 0;
     padding: 0;
@@ -9,10 +10,23 @@ body {
     background: linear-gradient(135deg, #283048, #859398);
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+/* Logo styling */
+.logo-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 200px; /* Adjust size according to your logo */
+    height: auto;
+}
+
+/* Coming soon section */
 .coming-soon-container {
     text-align: center;
     color: white;
